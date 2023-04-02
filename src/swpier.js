@@ -2,7 +2,7 @@ import Swiper from 'swiper/swiper-bundle.esm'
 import 'swiper/swiper-bundle.min.css'
 
 /* eslint-disable no-new */
-// 예외적으로 인스턴스를 사용하지 않기떄문에 eslint no-new role을 disable하였습니다.
+// Swiper 클레스의 인스턴스를 사용하지 않기떄문에 예외적으로 eslint no-new role을 disable하였습니다.
 
 // category-card-swiper
 new Swiper('.category-card-swiper', {

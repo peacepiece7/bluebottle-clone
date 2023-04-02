@@ -17,7 +17,7 @@ const delay = async (ms) => {
 function progress(ms) {
   const start = Date.now()
   const intervalId = setInterval(() => {
-    // progressValue = (현제시간 - 시작시간) / (ms/100)
+    // progressValue = (현재시간 - 시작시간) / (ms/100)
     const progressValue = parseInt((Date.now() - start) / (ms / 100), 10)
     document.querySelector('#progress').value = progressValue
   }, 100)
