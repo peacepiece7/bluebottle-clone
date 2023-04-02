@@ -46,6 +46,11 @@
         letter-spacing: 0.1rem;
         margin: 0 1.25rem;
         padding: 0.75rem 0;
+        opacity: 1;
+        transition: opacity 0.1s ease-in-out;
+      }
+      a:hover {
+        opacity: 0.4;
       }
     }
   }
@@ -66,6 +71,7 @@
       justify-content: center;
       .content__inner {
         max-width: 28rem;
+        background-color: $color-begie;
         h2 {
           font-size: 1.5rem;
           font-weight: 400;
@@ -103,6 +109,11 @@
           padding: 1rem 2.25rem;
           background-color: #fff;
           margin-top: 30px;
+          opacity: 1;
+          transition: opacity 0.1s ease-in-out;
+        }
+        a:hover {
+          opacity: 0.4;
         }
       }
     }
@@ -118,7 +129,6 @@
           display: block;
           width: 100%;
           padding-bottom: 100%;
-          background-color: violet;
           img {
             position: absolute;
             width: 100%;
